@@ -29,3 +29,16 @@ The overall goal of this research is to improve the prediction of lithium-ion ba
 
 The introduction sets the stage by explaining the importance of the problem, the challenges involved, and the innovative approach of using machine learning to predict battery life. 🔋🔍📈
 
+## **Table of Contents:**
+---
+1. [Abstract](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/edit/main/README.md)
+   
+2. [Introduction](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Introduction.md) 
+
+4. [Dataset Deatils](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Dataset%20Deatils.md) 
+
+5. [Machine Learning Approaches And Models](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Machine%20Learning%20Approaches%20And%20Models.md) 
+
+6. [Proposed Model](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Proposed%20Model.md)
+
+7. [Experimentation And Results](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Experimentation%20And%20Results.md)

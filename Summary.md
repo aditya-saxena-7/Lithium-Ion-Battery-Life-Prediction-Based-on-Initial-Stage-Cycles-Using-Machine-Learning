@@ -26,10 +26,26 @@ Accurate RUL prediction is essential for several reasons:
 2. **Safety**: Helps in preventing unexpected battery failures, which can be crucial for applications like electric vehicles and portable electronics.
 3. **Cost-Effectiveness**: Reduces maintenance costs by predicting when a battery needs to be replaced, avoiding unnecessary replacements.
 
-4. 
+### Introduction 📘
 
+Advancements in battery technology have generated vast amounts of data, which can be leveraged using machine learning techniques to predict battery life more accurately. The paper references a database of lithium-ion phosphate (LFP) and graphite cells, indicating that data-driven approaches are increasingly applied to analyze battery properties. 
 
+Machine learning models are particularly beneficial under high-rate operating conditions where traditional degradation models fall short. The introduction emphasizes the opportunity for higher accuracy, earlier predictions, better interpretability, and broader application of these models across various cycling conditions.
 
+An average lithium-ion battery performs 700-800 cycles before degrading significantly. This paper focuses on developing data-driven models that use early-cycle data (first 100 cycles) to predict the battery's remaining life. The aim is to classify batteries and understand the parameters influencing their state without prior knowledge of degradation mechanisms.
+
+### DATA SET DETAILS 📊
+
+The data set includes measurements of six key features for each battery cycle from the beginning until the battery is no longer usable, typically around 760 life cycles. The six features observed are:
+
+1. **Charge Capacity**: The amount of electric charge a battery can store during charging.
+2. **Discharge Capacity**: The amount of electric charge a battery can deliver during discharging.
+3. **Internal Resistance**: The resistance within the battery that affects its performance and efficiency.
+4. **Temperature**: The temperature of the battery, which can influence its performance and degradation.
+5. **Current**: The flow of electric charge during charging and discharging.
+6. **Voltage**: The electric potential difference across the battery terminals.
+
+For early-stage prediction, machine learning models are trained using data from the first 100 life cycles, focusing on the above six factors.
 
 
 

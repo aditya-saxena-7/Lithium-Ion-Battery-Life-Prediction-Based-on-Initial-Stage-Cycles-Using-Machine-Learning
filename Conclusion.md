@@ -53,3 +53,19 @@ The conclusion ties together the study's findings, emphasizing the success of th
 - **Prognostics**: Predicting the future condition or remaining useful life of a system.
 
 The conclusion succinctly encapsulates the study's achievements and future potential, highlighting the promise of machine learning in enhancing battery technology and management. 📈🔋✨
+
+## **Table of Contents:**
+---
+1. [Abstract](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/edit/main/README.md)
+   
+2. [Introduction](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Introduction.md) 
+
+3. [Dataset Details](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Dataset%20Deatils.md) 
+
+4. [Machine Learning Approaches And Models](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Machine%20Learning%20Approaches%20And%20Models.md) 
+
+5. [Proposed Model](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Proposed%20Model.md)
+
+6. [Experimentation And Results](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Experimentation%20And%20Results.md)
+
+7. [Conclusion](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Conclusion.md)

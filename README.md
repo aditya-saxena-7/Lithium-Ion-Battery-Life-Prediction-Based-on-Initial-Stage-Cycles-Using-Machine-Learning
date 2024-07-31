@@ -1,4 +1,4 @@
-# Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning
+# Lithium Ion Battery Life Prediction Based on Initial Stage Cycles Using Machine Learning
 
 ## **Table of Contents:**
 ---

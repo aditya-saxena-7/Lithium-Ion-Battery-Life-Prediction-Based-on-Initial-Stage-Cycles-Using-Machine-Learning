@@ -47,12 +47,33 @@ The data set includes measurements of six key features for each battery cycle fr
 
 For early-stage prediction, machine learning models are trained using data from the first 100 life cycles, focusing on the above six factors.
 
+The output feature in this study is the Remaining Useful Life (RUL) of the battery, which is the predicted number of cycles the battery can undergo before it reaches the end of its useful life. The RUL is determined based on the early-cycle data (first 100 cycles) of the input features. The output is usually expressed as the number of remaining cycles or as a classification of whether the battery is near the end of its life.
 
+### MACHINE LEARNING APPROACHES AND MODELS 🤖
 
+**Principal Component Analysis (PCA) 📉**
 
+[Add link to PCA](https://www.notion.so/343a3b1684a5480b968121afe6c3a709?v=d6b08dbd6485489a8825444053600879)
 
+**Detailed Explanation:**
+Principal Component Analysis (PCA) is a statistical technique used to simplify a dataset by reducing its dimensions. It transforms the original set of correlated variables into a smaller set of uncorrelated variables called principal components. PCA is widely used in exploratory data analysis and for making predictive models. In this study, PCA was applied to examine the relationships among the six battery features. The PCA model used consists of two principal components, which were then followed by a Logistic Regression model with parameters set as solver = ‘lbfgs’ and multi_class = ‘auto’.
 
+**Importance:**
+1. **Dimensionality Reduction**: PCA helps in reducing the complexity of the data by focusing on the most important variables.
+2. **Data Visualization**: It allows for easier visualization of the data in a lower-dimensional space.
+3. **Improved Model Performance**: By reducing noise and focusing on key components, PCA can improve the performance of predictive models.
 
+**Gradient Boosting Trees (GBT) 🌳**
+
+[Add link to Gradient Boosting Trees](https://www.notion.so/b966adcff8f3424a9982ce0d25316b04?v=b91a28f2771440f7b4d461d962fdb569)
+
+**Detailed Explanation:**
+Gradient Boosting Trees (GBT) is a powerful machine learning technique used for regression and classification problems. It builds an ensemble of weak prediction models, typically decision trees, in a stage-wise fashion. Each new tree corrects the errors made by the previous trees. The GBT model in this study was set with a maximum depth (max_depth) of 2, number of trees (n_estimators) of 20, and a learning rate of 0.1.
+
+**Importance:**
+1. **High Accuracy**: GBT often achieves high accuracy by combining multiple models to improve predictions.
+2. **Error Correction**: It effectively corrects errors from previous models, leading to better overall performance.
+3. **Versatility**: GBT can be used for both regression (predicting continuous values) and classification (predicting categories) problems.
 
 
 

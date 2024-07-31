@@ -42,3 +42,7 @@ The introduction sets the stage by explaining the importance of the problem, the
 6. [Proposed Model](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Proposed%20Model.md)
 
 7. [Experimentation And Results](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Experimentation%20And%20Results.md)
+
+8. [Conclusion](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Conclusion.md)
+
+7. [Experimentation And Results](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Experimentation%20And%20Results.md)

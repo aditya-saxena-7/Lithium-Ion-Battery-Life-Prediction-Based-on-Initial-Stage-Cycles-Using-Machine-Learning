@@ -41,3 +41,17 @@ The proposed model section is central to achieving the study's goal of accuratel
 - **Accuracy**: The proportion of true results (both true positives and true negatives) among the total number of cases examined.
 
 The proposed model section outlines the comprehensive methodology used to predict battery life, highlighting the importance of each step in ensuring accurate and reliable predictions. 📊🔋🧠
+
+## **Table of Contents:**
+---
+1. [Abstract](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/edit/main/README.md)
+   
+2. [Introduction](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Introduction.md) 
+
+4. [Dataset Deatils](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Dataset%20Deatils.md) 
+
+5. [Machine Learning Approaches And Models](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Machine%20Learning%20Approaches%20And%20Models.md) 
+
+6. [Proposed Model](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Proposed%20Model.md)
+
+7. [Experimentation And Results](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Experimentation%20And%20Results.md)

@@ -1,7 +1,7 @@
 # Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning
 
 ## **Table of Contents:**
-
+---
 1. [Abstract](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/edit/main/README.md)
    
 2. [Introduction](https://github.com/aditya-saxena-7/Lithium-Ion-Battery-Life-Prediction-Based-on-Initial-Stage-Cycles-Using-Machine-Learning/blob/main/Introduction.md) 

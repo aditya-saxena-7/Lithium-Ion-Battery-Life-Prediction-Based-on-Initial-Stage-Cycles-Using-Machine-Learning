@@ -84,8 +84,6 @@ Gradient Boosting Trees (GBT) is a powerful machine learning technique used for 
 
 This section details the proposed approach for predicting the remaining useful life (RUL) of lithium-ion batteries using machine learning models. 
 
-The study implements six different machine learning models: Deep Neural Network (DNN), Gradient Boosting Trees (GBT), Naïve Bayes, Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), and Kernel PCA. 
-
 These models are trained on early-cycle data to predict battery life and their performances are compared to identify the most effective model.
 
 The steps involved in the proposed model are:
@@ -110,24 +108,15 @@ The steps involved in the proposed model are:
 - **Splitting the Data**: The dataset was divided into training and testing sets in a 75:25 ratio to evaluate the performance of the models accurately. 
 
 #### 6.3 **Model Training and Evaluation**:
-- Six machine learning models were employed: Deep Neural Network (DNN), Gradient Boosting Trees (GBT), Naïve Bayes, Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), and Kernel PCA.
-- The models were trained on the training set and evaluated on the testing set to compare their performance in predicting the battery life.
-- **Deep Neural Network (DNN)**: Utilized three hidden layers and one output layer. The "relu" activation function was used in the hidden layers, and the "softmax" function in the output layer. The model was optimized using the "adam" optimizer, with a batch size of 10 and 100 epochs.
+
 - **Gradient Boosting Trees (GBT)**: Comprised an ensemble of weak prediction models (decision trees) built in a stage-wise manner. The model was set with a maximum depth of 2, 20 estimators, and a learning rate of 0.1.
-- **Naïve Bayes**: Applied Bayesian theorem with the assumption of conditional independence between features. This model was implemented using the GaussianNB classifier from the sklearn library.
+
 - **Principal Component Analysis (PCA)**: Reduced dimensionality by transforming correlated variables into uncorrelated principal components. The model used two principal components followed by a Logistic Regression model.
-- **Linear Discriminant Analysis (LDA)**: Reduced dimensionality by projecting features into a lower-dimensional space, focusing on maximizing the separation between different classes.
-- **Kernel PCA**: Extended PCA by using kernel methods to project data into a higher-dimensional feature space, making it linearly separable. The model used two components with a radial basis function (rbf) kernel.
 
 #### 6.4 **Results and Interpretation**:
-- The performance of each model was evaluated based on accuracy. The results were summarized in a bar graph (Fig. 3) and an accuracy table (Table 2).
-- **Deep Neural Network (DNN)**: Achieved the highest accuracy of 89.44% on the testing set, demonstrating its effectiveness in predicting battery life.
-- **Principal Component Analysis (PCA)**: Showed strong performance with an accuracy of 87.23%, making it the second-best model.
-- **Kernel PCA**: Ranked third with an accuracy of 84.86%.
-- **Naïve Bayes**: Achieved an accuracy of 83.29%, indicating its robustness despite its simplicity.
+
 - **Gradient Boosting Trees (GBT)**: Demonstrated an accuracy of 80.88%, showing it as a competitive model.
-- **Linear Discriminant Analysis (LDA)**: Had the lowest accuracy of 79.37%, highlighting areas for improvement.
-- The models were prevented from overfitting, ensuring better generalization to new data.
+
 
 #### 6.5 **Correlation Analysis**:
 - Pearson’s coefficient of correlation was used to determine the relationship between the features and the cycle number.
